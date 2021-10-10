@@ -16,6 +16,7 @@ class Oriole(commands.Bot):
         )
         self._load_extensions()
         self.uptime = datetime.utcnow()
+        self.owner_ids = {534820059965685770}
         self.repository = "https://github.com/Batucho/Oriole-DiscordBot"
 
     def _load_extensions(self) -> None:
