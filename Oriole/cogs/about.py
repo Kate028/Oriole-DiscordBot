@@ -18,7 +18,7 @@ class About(commands.Cog):
         info_embed.add_field(
             name="Created At",
             value=self.bot.user.created_at.strftime("%B %d %Y at %H:%M:%S %p"),
-        )  # "10/10/2021"
+        )
         info_embed.add_field(
             name="Uptime",
             value=(datetime.datetime.utcnow() - self.bot.uptime),
