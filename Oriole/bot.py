@@ -20,7 +20,11 @@ class Oriole(commands.Bot):
         self.repository = "https://github.com/Batucho/Oriole-DiscordBot"
 
     def _load_extensions(self) -> None:
-        for filename in os.listdir("./Oriole/cogs"):
+        try:
+            cogs_dir = os.listdir("./Oriole/cogs")
+        except FileNotFoundError as e:
+            cogs_dir = os.listdir("cogs")
+        for filename in cogs_dir:
             if filename.endswith(".py"):
                 cog = filename[:-3]
                 try:
