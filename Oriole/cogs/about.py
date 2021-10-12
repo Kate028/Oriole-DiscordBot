@@ -1,5 +1,6 @@
 import discord
 import datetime
+import humanize
 from discord.ext import commands
 
 
@@ -17,11 +18,11 @@ class About(commands.Cog):
         )
         info_embed.add_field(
             name="Created At",
-            value=self.bot.user.created_at.strftime("%B %d %Y at %H:%M:%S %p"),
+            value=self.bot.user.created_at.strftime("%B %d %Y"),
         )
         info_embed.add_field(
             name="Uptime",
-            value=(datetime.datetime.utcnow() - self.bot.uptime),
+            value=humanize.naturaldelta(datetime.datetime.utcnow() - self.bot.uptime),
         )
         info_embed.add_field(
             name="Github",
