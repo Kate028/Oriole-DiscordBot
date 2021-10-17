@@ -28,27 +28,27 @@
 
   **Instructions on setting up Oriole DiscordBot locally.**
 
- ### Prerequisites
+  ### Prerequisites
 
-  - Python 3.9 or higher is recommended
-  - Bot is running on discordpy 2.0a 
- 
-### Installation
+   - Python 3.9 or higher is recommended
+   - Bot is running on discordpy 2.0a 
 
- 1. Install dependencies 
-  ```
-  $ pip install -r requirements.txt
-  ```
-  
- 2. Create .env file
-  ```
-  TOKEN= #Your bot's token
-  ```
- 
- 3. Run the bot
-  ```
-  $ python launcher.py
-  ```
+  ### Installation
+
+  1. Install dependencies 
+   ```
+   $ pip install -r requirements.txt
+   ```
+
+  2. Create .env file
+   ```
+   TOKEN= #Your bot's token
+   ```
+
+  3. Run the bot
+   ```
+   $ python launcher.py
+   ```
 
 
  <!-- CONTRIBUTING -->
