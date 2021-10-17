@@ -60,12 +60,11 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
+1. Fork and clone the Project
 2. Create your Feature Branch (`git checkout -b new_branch`)
-3. Create a new remote for the upstream repo (`git remote add upstream https://github.com/Batucho/Oriole-DiscordBot`)
-4. Commit your Changes (`git commit -m 'commit_message'`)
-5. Push to the Branch (`git push origin new_branch`)
-6. Open a Pull Request
+3. Add, Commit your Changes (`git commit -am 'commit_message'`)
+4. Push to the Branch (`git push --set-upstream origin new_branch`)
+5. Open a Pull Request
 
 
 <!-- Features -->
